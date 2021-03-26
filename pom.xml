@@ -70,8 +70,22 @@
             <artifactId>mapstruct</artifactId>
             <version>1.4.2.Final</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.JensPiegsa/wiremock-extension -->
+        <dependency>
+            <groupId>com.github.JensPiegsa</groupId>
+            <artifactId>wiremock-extension</artifactId>
+            <version>0.4.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>mulesoft.org</id>
+            <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>
